@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fixed-bottom">
     <b-jumbotron class="jumbotron">
       <p class="text-center">
         Training app | All rights reserved
