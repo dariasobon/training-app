@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="footer">
     <b-jumbotron class="jumbotron">
       <p class="text-center">
         Training app | All rights reserved
@@ -19,5 +19,12 @@ export default {};
 }
 p {
   margin-bottom: 0px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 </style>
