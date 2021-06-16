@@ -7,9 +7,9 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Home</b-nav-item>
-          <b-nav-item href="#">Create post</b-nav-item>
-          <b-nav-item href="#">All posts</b-nav-item>
+          <NuxtLink to="/">Home page</NuxtLink>
+          <NuxtLink to="/create-post">Create post</NuxtLink>
+          <NuxtLink to="/all">All posts</NuxtLink>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
