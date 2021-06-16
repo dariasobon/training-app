@@ -6,6 +6,7 @@
         <b-button variant="primary" href="#">Add post</b-button>
         <b-button variant="primary" href="#">See all posts</b-button>
       </b-jumbotron>
+      
     </div>
   </div>
 </template>
