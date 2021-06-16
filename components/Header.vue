@@ -1,16 +1,18 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar toggleable="lg" type="dark" variant="secondary">
       <b-navbar-brand href="#">Training app</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-          <NuxtLink to="/">Home page</NuxtLink>
-          <NuxtLink to="/create-post">Create post</NuxtLink>
-          <NuxtLink to="/all">All posts</NuxtLink>
-        </b-navbar-nav>
+        <b-nav pills>
+          <b-nav-item><NuxtLink to="/">Home page</NuxtLink></b-nav-item>
+          <b-nav-item
+            ><NuxtLink to="/create-post">Create post</NuxtLink></b-nav-item
+          >
+          <b-nav-item><NuxtLink to="/all">All posts</NuxtLink></b-nav-item>
+        </b-nav>
       </b-collapse>
     </b-navbar>
   </div>
