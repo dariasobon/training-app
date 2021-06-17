@@ -2,7 +2,7 @@
   <div class="footer">
     <b-jumbotron class="jumbotron">
       <p class="text-center">
-        Training app | All rights reserved
+        Employees app | All rights reserved
       </p>
     </b-jumbotron>
   </div>
