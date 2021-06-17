@@ -1,10 +1,12 @@
 <template>
   <div>
     <div class="text-center">
-      <b-jumbotron class="app-body" header="Training App">
-        <p>What would you like to do?</p>
-        <b-button variant="primary" href="#">Add post</b-button>
-        <b-button variant="primary" href="#">See all posts</b-button>
+      <b-jumbotron
+        class="app-body"
+        header="Employee App"
+        lead="This application helps you to manage your employees"
+      >
+        <p>You can create new one or see and edit your current employees</p>
       </b-jumbotron>
     </div>
   </div>

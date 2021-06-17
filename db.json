@@ -1,9 +1,6 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "employees": [
+    { "id": 1, "firstName": "json-server", "lastName": "typicode", "email": "test@gmail.com" },
+    { "id": 2, "firstName": "test", "lastName": "last", "email": "test111@gmail.com" }
+  ]
 }
