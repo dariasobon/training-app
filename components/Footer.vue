@@ -2,7 +2,7 @@
   <div class="footer">
     <b-jumbotron class="jumbotron">
       <p class="text-center">
-        Employees app | All rights reserved
+        Employees app | All rights reserved | <NuxtLink to="/about">About</NuxtLink>
       </p>
     </b-jumbotron>
   </div>
