@@ -1,6 +1,6 @@
 <template>
   <div>
-    all posts
+    <AllEmployees />
   </div>
 </template>
 
