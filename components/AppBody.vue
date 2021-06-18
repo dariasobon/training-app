@@ -6,7 +6,7 @@
         header="Employee App"
         lead="This application helps you to manage your employees"
       >
-        <p>You can create new one or see and edit your current employees</p>
+        <p class="second">You can create new one or see and edit your current employees</p>
       </b-jumbotron>
     </div>
   </div>
