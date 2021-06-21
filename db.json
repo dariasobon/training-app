@@ -1,6 +1,31 @@
 {
   "employees": [
-    { "id": 1, "firstName": "json-server", "lastName": "typicode", "email": "test@gmail.com" },
-    { "id": 2, "firstName": "test", "lastName": "last", "email": "test111@gmail.com" }
+    {
+      "id": 1,
+      "firstName": "json-server",
+      "lastName": "typicode",
+      "email": "test@gmail.com",
+      "contractType": "EC",
+      "age": 32,
+      "employment": "Full time"
+    },
+    {
+      "id": 2,
+      "firstName": "test",
+      "lastName": "last",
+      "email": "test111@gmail.com",
+      "contractType": "MC",
+      "age": 55,
+      "employment": "Full time"
+    },
+    {
+      "id": 3,
+      "firstName": "john",
+      "lastName": "smith",
+      "email": "john@gmail.com",
+      "contractType": "B2B",
+      "age": 44,
+      "employment": "Half time"
+    }
   ]
 }
