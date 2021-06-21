@@ -1,6 +1,17 @@
 <template>
   <div>
-    <b-table class="text-center" striped hover :items="employees" :fields="fields"></b-table>
+    <b-table class="text-center" striped hover :items="employees" :fields="fields">
+      <template #cell(edit)="row">
+        <b-button variant="info" size="sm" @click="row.toggleDetails" class="mr-2">
+          Edit
+        </b-button>
+      </template>
+      <template #cell(delete)="row">
+        <b-button variant="danger" size="sm" @click="row.toggleDetails" class="mr-2">
+          Delete
+        </b-button>
+      </template>
+    </b-table>
   </div>
 </template>
 
@@ -39,6 +50,14 @@ export default {
           {
             key: 'age',
             label: 'Person age'
+          },
+          {
+            key: 'edit',
+            label: "Edit"
+          },
+          {
+            key: 'delete',
+            label: 'Delete'
           }
         ],
     }
