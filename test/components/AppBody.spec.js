@@ -14,7 +14,7 @@ describe("App Body Component", () => {
     })
   })
 
-  it("App Body should display what you can create", () => {
+  it("used Jumbotron external component gets proper data", () => {
     const $p = wrapper.find("p.second");
     expect($p.text()).toBe(
       "You can create new one or see and edit your current employees"
