@@ -8,7 +8,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-nav pills>
           <b-nav-item><NuxtLink to="/">Home page</NuxtLink></b-nav-item>
-          <b-nav-item><NuxtLink to="/add-employee">Add employee</NuxtLink></b-nav-item>
+          <b-nav-item><NuxtLink to="/add-employee" id="addEmployees">Add employee</NuxtLink></b-nav-item>
           <b-nav-item><NuxtLink to="/all">All employees</NuxtLink></b-nav-item>
         </b-nav>
       </b-collapse>
